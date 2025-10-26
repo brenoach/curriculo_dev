@@ -86,3 +86,10 @@ button:hover {
 .oculto {
     display: none;
 }
+
+img {
+    border-radius: 50px;
+    width: 150px;
+    transition: 0.1s;
+
+}

@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
     //    Usamos 'const' porque esses valores não vão mudar.
     const botao = document.getElementById('botaoExperiencias');
     const detalhes = document.getElementById('detalhesExperiencias');
+    const botaocontato = document.getElementById('contato');
 
-    // 3. Adiciona um "ouvinte de evento" no botão.
-    //    Ele vai ficar esperando por um evento de 'click'.
+
     botao.addEventListener('click', function() {
         
         // 4. Quando o clique acontecer, executa esta função.
