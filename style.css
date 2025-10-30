@@ -18,7 +18,7 @@ body {
 
     background-color: #f4f4f4; /* Um cinza bem claro para o fundo da página */
     color: #333; /* Cor do texto principal */
-    border: 2px solid red; /* Mantive suas bordas para debug */
+    border: 2px solid rgb(20, 19, 19); /* Mantive suas bordas para debug */
 }
 
 header {
@@ -26,6 +26,8 @@ header {
     background-color: #4A148C; /* Um tom de roxo mais escuro para contraste */
     color: white; /* Texto branco para ler sobre o fundo escuro */
     padding: 20px; /* Adiciona um respiro interno */
+    display:flex;
+    justify-content:space-between;
 }
 
 /* Estiliza todas as seções do main para dar um espaçamento */
@@ -88,7 +90,7 @@ button:hover {
 }
 
 img {
-    border-radius: 50px;
+    border-radius: 70px;
     width: 150px;
     transition: 0.1s;
 
