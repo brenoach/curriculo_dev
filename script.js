@@ -26,3 +26,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// fazer uma classe para os botões

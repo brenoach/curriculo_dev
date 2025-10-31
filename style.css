@@ -28,6 +28,7 @@ header {
     padding: 20px; /* Adiciona um respiro interno */
     display:flex;
     justify-content:space-between;
+    
 }
 
 /* Estiliza todas as seções do main para dar um espaçamento */
@@ -89,9 +90,11 @@ button:hover {
     display: none;
 }
 
-img {
-    border-radius: 70px;
-    width: 150px;
-    transition: 0.1s;
 
+.foto img {
+    width: 250px; /* Defina um tamanho fixo para a foto */
+    height: 250px;
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 50%; /* Deixa a foto redonda */
+    padding: 20px;
 }
